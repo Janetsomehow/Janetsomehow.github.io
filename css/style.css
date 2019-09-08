@@ -1,0 +1,49 @@
+body{
+    background-color: rgba(26, 28, 31, 0.822);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color:rgba(88, 12, 76, 0.863);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 15px;
+}
+
+h1, h2, h3{
+    text-transform: uppercase;
+    color: brown;
+}
+
+.experience ul{
+    list-style: square;
+}
+
+a:hover{
+    color: red;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form input[type="email"], .my-form textarea{
+    padding: 8px;
+    width: 60%;
+}
+
+.my-form input[type="submit"]{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
